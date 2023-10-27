@@ -1,0 +1,70 @@
+body {
+    background-color: #9EB3C2;
+}
+
+header {
+    background-color: #1B3B6F;
+    color: whitesmoke;
+}
+
+footer {
+    background-color: #1B3B6F;
+    color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 1em;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: #FFC857
+}
+
+a:visited {
+    color: #9EB3C2
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    display: block;
+    margin: 1em;
+}
+
+footer ul li {
+    display: block;
+    text-align: center;
+    margin: 1em;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(3, 2fr);
+    grid-gap: 1em;
+}
+
+.wrapper p {
+    text-align: center;
+    margin: 2em;
+}
